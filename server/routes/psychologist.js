@@ -5,8 +5,8 @@ const { AutoModelForCausalLM, AutoTokenizer } = require('@xenova/transformers');
 let model, tokenizer;
 
 (async () => {
-  tokenizer = await AutoTokenizer.from_pretrained('microsoft/DialoGPT-medium');
-  model = await AutoModelForCausalLM.from_pretrained('microsoft/DialoGPT-medium');
+  tokenizer = await AutoTokenizer.from_pretrained('./model');
+  model = await AutoModelForCausalLM.from_pretrained('./model');
 })();
 
 router.post('/', async (req, res) => {
