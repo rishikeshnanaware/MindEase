@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+input, button {
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
