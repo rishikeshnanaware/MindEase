@@ -11,7 +11,7 @@ MindEase is a mental wellness platform with an AI-powered chatbot trained to sup
 - Frontend: ReactJS
 - Backend: Node.js
 -Model: Fine-tuned DialoGPT-medium (local server)
-- Dataset: [EmpatheticDialogues on Kaggle](https://www.kaggle.com/datasets/akasharora/empatheticdialogues)
+- Dataset: [EmpatheticDialogues on Kaggle](https://www.kaggle.com/datasets/atharvjairath/empathetic-dialogues-facebook-ai)
 
 ## 🚀 Setup Instructions
 ```bash
